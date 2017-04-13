@@ -49,7 +49,7 @@ type Service struct {
 
 	RetainIp bool `json:"retainIp,omitempty" yaml:"retain_ip,omitempty"`
 
-	Scale int64 `json:"scale,omitempty" yaml:"scale,omitempty"`
+	Scale int64 `json:"scale" yaml:"scale"`
 
 	ScalePolicy *ScalePolicy `json:"scalePolicy,omitempty" yaml:"scale_policy,omitempty"`
 
@@ -61,7 +61,7 @@ type Service struct {
 
 	StackId string `json:"stackId,omitempty" yaml:"stack_id,omitempty"`
 
-	StartOnCreate bool `json:"startOnCreate,omitempty" yaml:"start_on_create,omitempty"`
+	StartOnCreate bool `json:"startOnCreate" yaml:"start_on_create"`
 
 	State string `json:"state,omitempty" yaml:"state,omitempty"`
 
